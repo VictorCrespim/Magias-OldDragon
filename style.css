@@ -82,12 +82,13 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 90%; /* Largura máxima da caixa de resultados */
+    margin: auto;
     height: 42vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    margin-top: 1rem;
 }
 
 /* Estiliza cada item de resultado */
@@ -118,6 +119,18 @@ section button:hover {
     font-size: 1.1rem;
     text-indent: 1rem;
     color: #000000; /* Cor do texto */
+}
+
+.table_dados {
+    text-align: center;
+}
+
+.table_dados th{
+    padding-right: 30px;
+}
+
+.table_dados td{
+    padding-right: 30px;
 }
 
 
@@ -152,14 +165,6 @@ footer a:hover{
         padding: 0.8rem; /* Espaçamento interno em telas menores */
     }
 
-    .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
-        height: 40vh; /* Altura da caixa de resultados em telas menores */
-    }
-
-    .item-resultado h2 {
-        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
-    }
 }
 
 /* Responsividade para celulares */
@@ -168,7 +173,6 @@ footer a:hover{
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
-        margin-top: 40%;
     }
 
     section input {
@@ -181,7 +185,6 @@ footer a:hover{
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
     }
 

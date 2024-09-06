@@ -9,7 +9,7 @@ function pesquisar() {
             resultados += `
             <div class="item-resultado">
                 <h2>${dado.nome}</h2>
-                    <p class="info-meta">${dado.escola} ${dado.nível} | Alcance: ${dado.alcance} | Duração: ${dado.duração} | Jogada de Proteção: ${dado.resistência}</p>
+                    <p class="info-meta">${dado.escola} ${dado.nível} | Alcance: ${dado.alcance} | Duração: ${dado.duração} | Jogada de Proteção: ${dado.jogada_protecao}</p>
                     <p>${dado.efeitos}</p>
                     <p class="info-meta">Fonte: ${dado.fonte}</p>
             </div>
