@@ -159,5 +159,89 @@ let dados = [
         resistência: "-",
         fonte: "Old Dragon Aprimorado"
     },
-    
+    {
+        nome: "Baú secreto",
+        escola: "Arcana",
+        nível: 5,
+        alcance: "especial (ver texto) | Alvo: baú",
+        duração: "60 dias ou até ser dispensado",
+        efeitos: `<p class="p-dados"> Com esta magia o mago consegue esconder um baú no plano etéreo por até 60 dias, podendo recuperá-lo à vontade. O baú pode conter 1m³ de espaço para cada nível do mago. Se uma criatura viva for colocada no baú, ela viverá normalmente, respirando, se alimentando, bebendo e envelhecendo.</> <p class="p-dados">Para recuperar o baú é preciso se concentrar por um turno inteiro, e ele aparecerá ao lado do mago.</> <p class="p-dados">Caso o baú permaneça no plano etéreo por mais de 60 dias, existe uma chance diária e cumulativa de 5% do baú se perder para sempre.</>`,
+        resistência: "",
+        fonte: "Old Dragon Aprimorado"
+    },
+    {
+        nome: "Bênção",
+        escola: "Divina",
+        nível: 2,
+        alcance: "toque",
+        duração: "1d4 turnos + 1 turno/nível",
+        efeitos: `<p class="p-dados">A bênção é concedida pelo deus adorado pelo clérigo, concedendo ao alvo tocado um bônus de +1 nas jogadas de ataque e nas jogadas de proteção modificadas pela Sabedoria para cada 3 níveis de clérigo.</p>`,
+        resistência: "-",
+        fonte: "Old Dragon Aprimorado"
+    },
+    {
+        nome: "Bola de Fogo",
+        escola: "Arcana 3,",
+        nível: 7,
+        alcance: "raio de 10 metros + 3 metros/nível",
+        duração: "instantânea",
+        efeitos: `<p class="p-dados"> Um projétil semelhante a uma pequena pérola de chamas é disparado do dedo do mago, para explodir em chamas no lugar alvo. O raio da explosão é de 6 metros e o dano é de 1d6 por nível do mago (máximo 10d6). A explosão se adapta ao volume disponível.</p><p class="p-dados">Um sucesso em uma jogada de proteção modificada pela Destreza reduz o dano desta magia pela metade. Se memorizada como uma magia de 7º círculo, a explosão da bola de fogo pode ser adiada por até 10 minutos.</p>`,
+        resistência: "JP+DES reduz o dano pela metade",
+        fonte: "Old Dragon Aprimorado"
+    },
+    {
+        nome: "Bom Fruto",
+        escola: "Divina",
+        nível: 2,
+        alcance: "toque",
+        duração: "especial (ver texto)",
+        efeitos: `<p class="p-dados">Com esta magia, o clérigo é capaz de abençoar 2d4 frutos e torná-los mágicos. Aquele que comer destes frutos recuperará 1 ponto de vida perdido por nível do clérigo.</p><p class="p-dados">A cada 24 horas, apenas 8 pontos de vida podem ser recuperados com esta magia.</p>`,
+        resistência: "-",
+        fonte: "Old Dragon Aprimorado"
+    },
+
+    // Cântico
+    {
+        nome: "Cântico",
+        escola: "Divina",
+        nível: 2,
+        alcance: "raio de 10 metros + 3 metros/nível",
+        duração: "especial (ver texto)",
+        efeitos: `<p class="p-dados">O clérigo, entoando cantigas religiosas, concede a seus aliados um bônus de +1 para cada 3 níveis do clérigo em todas as jogadas dentro da área de alcance da magia, enquanto amaldiçoa simultaneamente os inimigos com uma penalidade de -1 em todas as jogadas na mesma área.</p><p class="p-dados">A magia estará ativa enquanto o clérigo estiver entoando o cântico e cessará caso receba dano, se locomova ou seja impedido de falar.</p>`,
+        resistência: "-",
+        fonte: "Old Dragon Aprimorado"
+    },
+
+    // Cativar
+    {
+        nome: "Cativar",
+        escola: "Divina",
+        nível: 2,
+        alcance: "raio de 10 metros + 3 metros/nível",
+        duração: "especial (ver texto)",
+        efeitos: `<p class="p-dados">O clérigo consegue atrair a atenção de uma plateia, mesmo que não compreendam perfeitamente a sua linguagem. Para resistir, é preciso uma jogada de proteção modificada pela Sabedoria. Os afetados permanecerão imóveis e indiferentes a tudo o que ocorrer à sua volta. Pessoas que estavam com atitudes hostis em relação ao clérigo antes da magia recebem um bônus de +4 na jogada de proteção para resistir à magia.</p><p class="p-dados">O efeito durará enquanto o clérigo estiver falando com a plateia (máximo de 1 hora) ou até serem atacados.</p>`,
+        resistência: "Jogada de proteção: JP+SAB nega",
+        fonte: "Old Dragon Aprimorado"
+    },
+    {
+        nome: "Cativar animais",
+        escola: "Divina",
+        nível: 1,
+        alcance: "raio de 3 metros + 1 metro/nível ",
+        duração: " permanente",
+        efeitos: `<p class="p-dados"> Com esta magia é possível acalmar e conquistar a confiança de animais selvagens e criaturas não inteligentes.</p><p class="p-dados">Os animais podem fazer uma jogada de proteção para resistir e mesmo assim apenas serão cativados caso a intenção do clérigo seja realmente sincera. Caso o clérigo esteja com segundas intenções (como enganar, comer, caçar, aprisionar e etc.), os animais perceberão e sequer precisarão fazer a jogada de proteção.</p><p class="p-dados">Animais que forem cativados seguirão o clérigo, que pode ainda lhes treinar e ensinar pequenos truques.</p>`,
+        resistência: "JP+SAB nega",
+        fonte: "Old Dragon Aprimorado"
+    },
+    {
+        nome: "",
+        escola: "",
+        nível: 1,
+        alcance: "",
+        duração: "",
+        efeitos: `<p class="p-dados"></p>`,
+        resistência: "",
+        fonte: "Old Dragon Aprimorado"
+    },
+
   ];
